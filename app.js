@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'dryfruit-white',
       name: 'Mixed Dry Fruit White',
       category: 'Dry Fruit',
-      img: 'https://kommodo.ai/i/kNf6cyWR6iWCYflSPB3Q',
+      img: 'assets/bonbon_lavender.jpg',
       flavorDesc: 'Slow-roasted almonds, cashews, and golden raisins folded into creamy white chocolate.'
     },
     {
