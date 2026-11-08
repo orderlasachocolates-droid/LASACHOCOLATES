@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'dryfruit-white',
       name: 'Mixed Dry Fruit White',
       category: 'Dry Fruit',
-      img: 'assets/bonbon_matcha.jpg',
+      img: 'https://www.image2url.com/r2/default/videos/1794147527777-bcc07861-5048-422c-babb-27dbcd9db9fb.mp4',
       flavorDesc: 'Slow-roasted almonds, cashews, and golden raisins folded into creamy white chocolate.'
     },
     {
