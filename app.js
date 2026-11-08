@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let state = {
     boxSize: 10,
-    boxPrice: 179,
+    boxPrice: 199,
     boxSelectedBonbons: [],
     cart: JSON.parse(localStorage.getItem('lasa_cart')) || [],
     promoCodeApplied: null,
@@ -500,12 +500,10 @@ document.addEventListener('DOMContentLoaded', () => {
       tab.dataset.price = price;
       if (size === 10) tab.textContent = `10-Piece Mix (₹${price})`;
       else if (size === 12) tab.textContent = `12-Piece Assortment (₹${price})`;
-      else if (size === 20) tab.textContent = `20-Piece Grand (₹${price})`;
     });
 
     if (state.boxSize === 10) boxSizeLabel.textContent = `10-Piece Custom Selection (₹${getBoxPrice(10)})`;
     else if (state.boxSize === 12) boxSizeLabel.textContent = `12-Piece Assortment Box (₹${getBoxPrice(12)})`;
-    else if (state.boxSize === 20) boxSizeLabel.textContent = `20-Piece Grand Celebration Box (₹${getBoxPrice(20)})`;
 
     state.boxPrice = getBoxPrice(state.boxSize);
     builderTotalPrice.textContent = state.boxPrice.toFixed(0);
@@ -581,7 +579,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (size === 10) boxSizeLabel.textContent = `10-Piece Custom Selection (₹${price})`;
       else if (size === 12) boxSizeLabel.textContent = `12-Piece Assortment Box (₹${price})`;
-      else boxSizeLabel.textContent = `20-Piece Grand Celebration Box (₹${price})`;
+     
 
       if (state.boxSelectedBonbons.length > size) {
         state.boxSelectedBonbons = state.boxSelectedBonbons.slice(0, size);
