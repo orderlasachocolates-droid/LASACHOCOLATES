@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LASA Chocolates & Bakers by Lakshitha | Handcrafted Artisan Confections</title>
+  <meta name="description" content="Lasa Chocolates & Bakers by Lakshitha — Handcrafted artisanal chocolates, exotic rose & kunafa confections, mixed dry fruit chocolates, and slow-baked fudge brownies in Bangalore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Centered Round Video Loading Screen -->
+  <aside class="intro-video-overlay" id="introVideoOverlay" aria-label="Welcome to Lasa Chocolates Intro">
+    <div class="intro-video-ambient-glow"></div>
+
+    <!-- Centered Card with Pure Borderless Round Video -->
+    <div class="intro-round-center-card">
+      <div class="intro-circle-frame">
+        <video id="introVideo" class="intro-round-video" playsinline autoplay preload="auto">
+          <source src="assets/intro_video.mp4" type="video/mp4">
+          <source src="https://www.image2url.com/r2/default/videos/1793990923030-c98a029e-dc6c-4735-8559-c892bddadc24.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" role="region" aria-label="Brand Mission">
+    <div class="container announcement-content">
+      <span class="announcement-pill" data-editable="announcement-pill">Bangalore Atelier</span>
+      <p data-editable="announcement-text">Save Earth 🌍 · Save Soil ✨ · Support Local 💪 · Support Women 🧑‍🎓 · <strong>Use code LASA10 for 10% off</strong></p>
+      <div class="announcement-right">
+        <a href="https://wa.me/19035653901" target="_blank" rel="noopener" class="whatsapp-top-link">
+          <span>💬 WhatsApp: +1 (903) 565-3901</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Centered Site Header -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <!-- Left Header Action: Mobile Menu Toggle -->
+      <div class="header-actions-left">
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open mobile navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Center Logo & Monogram -->
+      <a href="#" class="brand-center-wrap" aria-label="Lasa Chocolates Home">
+        <!-- Botanical 4-leaf clover monogram SVG -->
+        <svg class="brand-monogram" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3.5">
+          <path d="M50 50 C40 20, 20 20, 20 35 C20 50, 45 50, 50 50 Z" />
+          <path d="M50 50 C20 40, 20 20, 35 20 C50 20, 50 45, 50 50 Z" />
+          <path d="M50 50 C60 20, 80 20, 80 35 C80 50, 55 50, 50 50 Z" />
+          <path d="M50 50 C50 60, 20 80, 35 80 C50 80, 50 55, 50 50 Z" />
+          <path d="M50 50 C50 60, 80 80, 65 80 C50 80, 50 55, 50 50 Z" />
+        </svg>
+        <span class="brand-sub" data-editable="brand-sub">HANDCRAFTED &amp; BAKERS · BANGALORE</span>
+        <span class="brand-name" data-editable="brand-name">LASA</span>
+        <span class="brand-desc" data-editable="brand-desc">BY LAKSHITHA</span>
+      </a>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions-right">
+        <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="header-instagram-btn" title="Follow us on Instagram: @lasa.chocolates" aria-label="Instagram @lasa.chocolates">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          <span class="header-instagram-text">@lasa.chocolates</span>
+        </a>
+
+        <a href="https://forms.gle/RsjPg6EgCdBUmNhB8" target="_blank" rel="noopener" class="btn-outline-sm google-form-btn" title="Quick Google Order Form">
+          <span>📝 Order Form</span>
+        </a>
+
+        <button class="cart-trigger-btn" id="cartToggleBtn" aria-label="View Shopping Bag">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-label">Bag</span>
+          <span class="cart-count-badge" id="cartCountBadge">0</span>
+        </button>
+      </div>
+
+      <!-- Navigation Row Centered Below Logo -->
+      <nav class="header-nav-row" id="mainNav" aria-label="Primary Navigation">
+        <a href="#collections" class="nav-item">Our Creations</a>
+        <a href="#box-builder" class="nav-item highlight-link">10-Piece Custom Box</a>
+        <a href="#brownies-section" class="nav-item">Fudge Brownies</a>
+        <a href="#reels-section" class="nav-item" style="color: #C13584; font-weight: 600;">🎬 Our Reels</a>
+        <a href="#about-lasa" class="nav-item">About Lasa</a>
+        <a href="#downloads-section" class="nav-item">Menus</a>
+        <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="nav-item nav-instagram-link" title="Instagram: @lasa.chocolates">📸 Instagram</a>
+        <a href="https://wa.me/19035653901" target="_blank" rel="noopener" class="nav-item">WhatsApp Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Spacious & Decongested) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <div class="hero-badge">
+            <span class="sparkle-icon">🌸</span>
+            <span data-editable="hero-badge-text">Artisan Chocolates &amp; Bakers · Bangalore, India</span>
+          </div>
+
+          <h1 class="hero-title" data-editable="hero-title">
+            “Chocolate is the art of turning <span class="gradient-text">cocoa into pure emotion</span>.”
+          </h1>
+
+          <p class="hero-subtitle" data-editable="hero-subtitle">
+            Welcome to Lasa Chocolates by Lakshitha. A serene, joyful celebration of artisan confections — from delicate rose-infused white chocolate to slow-baked fudge brownies, roasted dry-fruit jewels, and crunchy kunafa chocolates.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#box-builder" class="btn btn-primary">
+              <span>Curate 10-Piece Mix (₹179)</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://wa.me/19035653901" target="_blank" rel="noopener" class="btn btn-secondary">
+              <span>💬 Order on WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-editable="stat-1-num">100%</span>
+              <span class="stat-label" data-editable="stat-1-label">Handmade with Love</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-editable="stat-2-num">Pure Butter</span>
+              <span class="stat-label" data-editable="stat-2-label">Slow-Baked Goodness</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-editable="stat-3-num">Fresh</span>
+              <span class="stat-label" data-editable="stat-3-label">Batch Made Daily</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-col">
+          <div class="hero-card-frame">
+            <div class="hero-image-wrapper">
+              <img src="assets/hero_banner.jpg" alt="Artisan pastel confections with delicate floral garnish" class="hero-img editable-image" id="heroVisualImg" data-img-key="hero-visual">
+              <span class="image-edit-overlay-tip">Click to Change Image</span>
+            </div>
+            <div class="hero-floating-badge badge-top-right">
+              <span class="badge-icon">🌹</span>
+              <div>
+                <strong data-editable="badge-top-title">Exotic Flavours</strong>
+                <small data-editable="badge-top-sub">Rose, Caramel &amp; Kunafa</small>
+              </div>
+            </div>
+            <div class="hero-floating-badge badge-bottom-left">
+              <span class="badge-icon">💖</span>
+              <div>
+                <strong data-editable="badge-bot-title">Women-Led Local Craft</strong>
+                <small data-editable="badge-bot-sub">Since 2025 · Bangalore</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curated Product Catalog ("Our Creations" - Positioned on First Screen) -->
+    <section class="collections-section" id="collections">
+      <div class="container">
+        <div class="section-header flex-header">
+          <div>
+            <span class="section-tag" data-editable="catalog-tag">Handcrafted Menu</span>
+            <h2 class="section-title" data-editable="catalog-title">Lasa Artisan Creations</h2>
+            <p class="section-description" data-editable="catalog-desc">Browse our authentic chocolate flights, exotic specialities, and bakery batches.</p>
+          </div>
+          <div class="filter-pills" id="collectionFilterPills">
+            <button class="filter-pill active" data-filter="all">All Items</button>
+            <button class="filter-pill" data-filter="exotic">Exotic Speciality</button>
+            <button class="filter-pill" data-filter="dryfruit">Mixed Dry Fruit</button>
+            <button class="filter-pill" data-filter="plain">Plain Chocolates</button>
+            <button class="filter-pill" data-filter="brownie">Fudge Brownies</button>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- Populated by JavaScript with real Lasa items -->
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <button class="btn btn-secondary" id="addNewProductBtn" style="display: none;">
+            <span>➕ Add New Product (Live Editor)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Essence Strip -->
+    <section class="essence-strip" aria-label="Flavor Highlights">
+      <div class="essence-track">
+        <span class="essence-item">✦ Rose Flavoured White Chocolate</span>
+        <span class="essence-item">✦ Signature Handcrafted Fudge Brownies</span>
+        <span class="essence-item">✦ Golden Crisp Kunafa Chocolates</span>
+        <span class="essence-item">✦ Roasted Dry Fruit Dark &amp; Milk Jewels</span>
+        <span class="essence-item">✦ Silken Butter Caramel Pralines</span>
+        <span class="essence-item">✦ Wild Glace Cherry Chocolates</span>
+        <span class="essence-item">✦ 10-Piece Custom Mix for ₹179</span>
+        <span class="essence-item">✦ Rose Flavoured White Chocolate</span>
+        <span class="essence-item">✦ Signature Handcrafted Fudge Brownies</span>
+      </div>
+    </section>
+
+    <!-- Interactive 10-Piece Custom Mix Box Builder -->
+    <section class="builder-section" id="box-builder">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-editable="builder-tag">Direct From Our Menu</span>
+          <h2 class="section-title" data-editable="builder-title">Mix of Any Favourite Flavours</h2>
+          <p class="section-description" data-editable="builder-desc">
+            Choose any 10 of your favourite handcrafted pieces for just <strong>₹179</strong>! Pick from rich dry fruits, rose-infused white chocolate, cherry, caramel, or classic silky chocolates.
+          </p>
+        </div>
+
+        <div class="builder-workspace">
+          <!-- Left: The Visual Box Preview & Meter -->
+          <div class="builder-box-preview-card">
+            <div class="box-preview-header">
+              <div class="box-meta">
+                <span class="box-size-label" id="boxSizeLabel">10-Piece Custom Selection</span>
+                <span class="box-fill-count" id="boxFillCount">0 of 10 Selected</span>
+              </div>
+              <div class="box-progress-bar">
+                <div class="box-progress-fill" id="boxProgressFill" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Mobile Horizontal Slide Controls & Swipe Hint -->
+            <div class="box-mobile-scroll-hint" id="boxMobileScrollHint">
+              <div class="scroll-hint-left">
+                <span class="swipe-hint-icon">👉</span>
+                <span class="swipe-hint-text">Slide box right to view all 10 slots</span>
+              </div>
+              <div class="box-scroll-nav-btns">
+                <button type="button" class="box-arrow-btn" id="boxScrollLeftBtn" aria-label="Slide box left" title="Slide Left">‹</button>
+                <button type="button" class="box-arrow-btn" id="boxScrollRightBtn" aria-label="Slide box right" title="Slide Right">›</button>
+              </div>
+            </div>
+
+            <!-- Tactile Confection Box Grid -->
+            <div class="confection-box-container" id="confectionBoxContainer">
+              <div class="box-lid-decoration">
+                <span class="box-foil-brand">LASA CHOCOLATES · BANGALORE</span>
+              </div>
+              <div class="confection-slots-grid grid-10" id="confectionSlots">
+                <!-- Dynamically populated slots -->
+              </div>
+            </div>
+
+            <div class="box-action-bar">
+              <div class="box-price-display">
+                <span class="price-currency">₹</span>
+                <span class="price-val" id="builderTotalPrice">179</span>
+                <span class="box-shipping-note">10 handcrafted pieces · exclude kunafa</span>
+              </div>
+              <div class="box-btns">
+                <button class="btn btn-outline-sm" id="clearBoxBtn">Clear Box</button>
+                <button class="btn btn-primary" id="addCustomBoxToCartBtn" disabled>
+                  <span>Add Box to Bag</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="flavor-harmony-strip">
+              <span class="harmony-label">Your Custom Assortment:</span>
+              <div class="harmony-tags" id="harmonyTags">
+                <span class="empty-harmony-hint">Click flavours on the right to fill your box</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Piece Selector Palette -->
+          <div class="builder-palette-card">
+            <div class="palette-header">
+              <div class="box-size-tabs" role="tablist">
+                <button class="size-tab active" data-size="10" data-price="179" role="tab">10-Piece Mix (₹179)</button>
+                <button class="size-tab" data-size="12" data-price="210" role="tab">12-Piece Assortment (₹210)</button>
+                <button class="size-tab" data-size="20" data-price="340" role="tab">20-Piece Grand (₹340)</button>
+              </div>
+              <p class="palette-instruction">Click any piece below to pack it into your custom box:</p>
+            </div>
+
+            <div class="bonbon-picker-grid" id="bonbonPickerGrid">
+              <!-- Rendered via JS from real Lasa menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homemade Brownies Spotlight Feature -->
+    <section class="brownies-feature-section" id="brownies-section">
+      <div class="container">
+        <div class="brownie-feature-card">
+          <div class="brownie-visual-col">
+            <img src="assets/brownie_menu.png" alt="Lasa Homemade Brownies 250 gms for Rs 249" class="brownie-feature-img editable-image" id="brownieFeatureImg" data-img-key="brownie-feature">
+            <span class="image-edit-overlay-tip">Click to Change Image</span>
+          </div>
+          <div class="brownie-info-col">
+            <span class="section-tag" data-editable="brownie-tag">Fresh from the Oven</span>
+            <h2 class="section-title" data-editable="brownie-title">The Artistry of Our Homemade Brownies</h2>
+            <p class="brownie-desc" data-editable="brownie-desc">
+              At Lasa, every brownie is crafted by hand using our signature blend of premium cocoa, real butter, and slow-baked goodness. We don’t mass-produce — we hand-make each batch, ensuring the perfect fudge center, crackly top, and deep chocolate flavour our customers cherish.
+            </p>
+            
+            <div class="brownie-specs">
+              <div class="spec-pill" data-editable="spec-1">⚖️ 250 grams Box</div>
+              <div class="spec-pill" data-editable="spec-2">🧈 100% Real Butter</div>
+              <div class="spec-pill" data-editable="spec-3">✨ Crackly Top &amp; Fudge Center</div>
+            </div>
+
+            <div class="brownie-purchase-bar">
+              <div class="brownie-price-tag">
+                <span class="b-currency">₹</span>
+                <span class="b-amount" data-editable="brownie-price">249</span>
+                <span class="b-note" data-editable="brownie-note">Freshly baked upon order</span>
+              </div>
+              <button class="btn btn-primary" id="addBrownieHeroBtn">
+                <span>Add Brownies to Bag</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Reels Showcase Section ("Our Reels" / "Watch Our Reels") -->
+    <section class="reels-section" id="reels-section">
+      <div class="container">
+        <div class="reels-header">
+          <div class="reels-title-wrap">
+            <span class="section-tag" data-editable="reels-tag">📸 Official Instagram Feed · @lasa.chocolates</span>
+            <h2 class="section-title" data-editable="reels-title">Watch Our Confection Reels</h2>
+            <p class="section-description" data-editable="reels-desc">
+              Direct from our Instagram <strong style="color: #C13584;">@lasa.chocolates</strong>! Fresh handcrafted bonbons, viral kunafa crunches, festive hampers, and slow-baked fudge brownies straight from our Bangalore atelier.
+            </p>
+          </div>
+          <div class="reels-header-action">
+            <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="btn btn-outline-sm btn-instagram-pill" title="Follow @lasa.chocolates on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <span>Follow @lasa.chocolates</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Live Instagram Behold Widget Embed -->
+        <div class="behold-widget-container">
+          <behold-widget feed-id="fOK8DjhcMWsFL2H61uLb"></behold-widget>
+        </div>
+      </div>
+    </section>
+
+    <!-- Behold Instagram Widget Script -->
+    <script>
+      (() => {
+        if(window.__bhldScript)return;window.__bhldScript=true;
+        const d=document,s=d.createElement("script");s.type="module";
+        s.src="https://w.behold.so/widget.js";setTimeout(()=>{d.head.append(s);},0);
+      })();
+    </script>
+
+    <!-- About Lasa Section -->
+    <section class="story-section" id="about-lasa">
+      <div class="container story-grid">
+        <div class="story-image-col">
+          <div class="story-img-container">
+            <img src="assets/lasa_thumb.png" alt="Handcrafted Lasa chocolate bonbon swirls" class="story-img editable-image" id="aboutStoryImg" data-img-key="about-story">
+            <span class="image-edit-overlay-tip">Click to Change Image</span>
+          </div>
+          <div class="story-experience-chip">
+            <span class="experience-num">❤️</span>
+            <span class="experience-text" data-editable="about-chip-text">Handmade with love by Lakshitha in Bangalore</span>
+          </div>
+        </div>
+
+        <div class="story-text-col">
+          <span class="section-tag" data-editable="about-tag">About Lasa Chocolates</span>
+          <h2 class="section-title" data-editable="about-title">A Slice of Happiness in Every Creation.</h2>
+          <p class="story-body" data-editable="about-desc">
+            At Lasa Chocolates, every confection is crafted with genuine love and care. Our artisanal approach ensures that each piece is a little burst of happiness wrapped in sweetness. Founded in 2025, we believe in keeping our confections pure, honest, and delightfully balanced.
+          </p>
+
+          <div class="story-points">
+            <div class="story-point">
+              <div class="point-icon">🌍</div>
+              <div class="point-content">
+                <h4 data-editable="point-1-title">Save Earth &amp; Save Soil</h4>
+                <p data-editable="point-1-desc">We choose thoughtful, eco-friendly food-grade packaging that respects our planet and minimizes environmental impact.</p>
+              </div>
+            </div>
+
+            <div class="story-point">
+              <div class="point-icon">🧑‍🎓</div>
+              <div class="point-content">
+                <h4 data-editable="point-2-title">Support Local &amp; Women-Led</h4>
+                <p data-editable="point-2-desc">Proudly home-grown and founded by Lakshitha. When you choose Lasa, you directly empower local women artisans in Bangalore.</p>
+              </div>
+            </div>
+
+            <div class="story-point">
+              <div class="point-icon">🍫</div>
+              <div class="point-content">
+                <h4 data-editable="point-3-title">No Shortcuts, Pure Emotion</h4>
+                <p data-editable="point-3-desc">From slow-roasting premium dry fruits to hand-tempering delicate chocolate swirls, every batch is made fresh on demand.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-founder-sign">
+            <div class="founder-info">
+              <strong data-editable="founder-name">Lakshitha</strong>
+              <small data-editable="founder-title">Founder &amp; Head Chocolatier · Lasa Chocolates</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Original Menus & Downloads Section -->
+    <section class="downloads-section" id="downloads-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-editable="downloads-tag">Official Atelier Menus</span>
+          <h2 class="section-title" data-editable="downloads-title">Downloadable Menu Cards</h2>
+          <p class="section-description" data-editable="downloads-desc">Keep our full price card on your device or share with family and friends.</p>
+        </div>
+
+        <div class="downloads-grid">
+          <div class="download-card">
+            <div class="download-icon">📜</div>
+            <h3>Menu Card 1</h3>
+            <p>Plain, Mixed Dry Fruit &amp; Exotic Chocolate List (Piece Packs)</p>
+            <a href="assets/menu_1.jpg" download="Lasa_Chocolates_Menu_1.jpg" class="btn btn-outline-sm">
+              <span>Download (JPG)</span>
+            </a>
+          </div>
+
+          <div class="download-card">
+            <div class="download-icon">⚖️</div>
+            <h3>Menu Card 2</h3>
+            <p>1KG Bulk Chocolate Pricing &amp; 10-Piece Custom Mix (₹179)</p>
+            <a href="assets/menu_2.jpg" download="Lasa_Chocolates_Menu_2.jpg" class="btn btn-outline-sm">
+              <span>Download (JPG)</span>
+            </a>
+          </div>
+
+          <div class="download-card">
+            <div class="download-icon">🍰</div>
+            <h3>Brownie Menu</h3>
+            <p>Homemade Slow-Baked Fudge Brownies (250 gms / ₹249)</p>
+            <a href="assets/brownie_menu.png" download="Lasa_Brownies_Menu.png" class="btn btn-outline-sm">
+              <span>Download (PNG)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Direct Order Channels & WhatsApp Banner -->
+    <section class="direct-order-section">
+      <div class="container">
+        <div class="order-channels-card">
+          <span class="section-tag" data-editable="order-tag">Convenient Ordering</span>
+          <h2 class="section-title" data-editable="order-title">Ordering Made Effortless</h2>
+          <p class="section-description" data-editable="order-desc">
+            “Just submit the form or drop us a message — the rest we will take care with all our love! 💖”
+          </p>
+
+          <div class="channel-buttons">
+            <a href="https://forms.gle/RsjPg6EgCdBUmNhB8" target="_blank" rel="noopener" class="btn btn-primary">
+              <span>📝 Submit Google Order Form</span>
+            </a>
+            <a href="https://wa.me/19035653901?text=Hi%20Lasa%20Chocolates!%20I%20would%20like%20to%20order%20handcrafted%20chocolates." target="_blank" rel="noopener" class="btn btn-secondary">
+              <span>💬 Message on WhatsApp</span>
+            </a>
+            <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="btn btn-outline-sm" style="border-color: #E1306C; color: #C13584;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <span>Follow @lasa.chocolates</span>
+            </a>
+            <a href="mailto:Order.lasachocolates@gmail.com" class="btn btn-outline-sm">
+              <span>✉️ Order.lasachocolates@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter & Privilege Code -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <span class="section-tag" data-editable="news-tag">Join Our Family 🫂</span>
+          <h2 class="section-title" data-editable="news-title">Get 10% Off Your First Order</h2>
+          <p class="section-description" data-editable="news-desc">Sign up for our email list for festival updates, seasonal fruit drops, and exclusive discounts.</p>
+          
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Enter your email address" required class="newsletter-input" id="newsletterEmail" aria-label="Email Address">
+            <button type="submit" class="btn btn-primary">
+              <span>Get 10% Voucher</span>
+            </button>
+          </form>
+          <p class="newsletter-disclaimer">We will apply code <strong>LASA10</strong> directly to your bag!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <span class="brand-sub">HANDCRAFTED &amp; BAKERS</span>
+          <span class="brand-name">LASA</span>
+          <span class="brand-desc">BANGALORE · SINCE 2025</span>
+        </div>
+        <p class="footer-bio">
+          Indulge in artisanal chocolates and brownies made with love. Save earth · Save soil · Support local · Support women.
+        </p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="social-btn-instagram" title="Follow @lasa.chocolates on Instagram">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <span>Instagram (@lasa.chocolates)</span>
+          </a>
+          <a href="https://wa.me/19035653901" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://forms.gle/RsjPg6EgCdBUmNhB8" target="_blank" rel="noopener">Order Form</a>
+          <a href="mailto:Order.lasachocolates@gmail.com">Email Us</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Chocolates</h3>
+        <ul class="footer-nav">
+          <li><a href="#collections">Rose White Chocolate</a></li>
+          <li><a href="#collections">Kunafa Chocolate</a></li>
+          <li><a href="#collections">Mixed Dry Fruit Boxes</a></li>
+          <li><a href="#box-builder">10-Piece Custom Mix (₹179)</a></li>
+          <li><a href="#collections">1KG Bulk Orders</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Bakers &amp; Menus</h3>
+        <ul class="footer-nav">
+          <li><a href="#brownies-section">Homemade Fudge Brownies</a></li>
+          <li><a href="#downloads-section">Download Menu 1</a></li>
+          <li><a href="#downloads-section">Download Menu 2</a></li>
+          <li><a href="#downloads-section">Brownie Card</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-heading">Atelier Location &amp; Social</h3>
+        <p class="boutique-address">
+          <strong>Lasa Chocolates &amp; Bakers:</strong><br>
+          Bangalore, Karnataka, India<br>
+          <br>
+          <strong>Instagram:</strong><br>
+          <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" style="color: #C13584; font-weight: 600; text-decoration: underline;">@lasa.chocolates</a><br>
+          <br>
+          <strong>Email:</strong><br>
+          Order.lasachocolates@gmail.com<br>
+          <br>
+          <strong>WhatsApp:</strong><br>
+          +1 (903) 565-3901
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-bottom-left">
+        <p>&copy; 2026 Lasa Chocolates &amp; Bakers by Lakshitha. All rights reserved. <button id="editorToggleBtn" class="secret-star-btn" aria-label="Owner access" title="Owner Access">✦</button></p>
+        <p class="company-credits">Made by: <strong>sinfotech.AI pvt ltd.</strong></p>
+      </div>
+      <div class="footer-bottom-links">
+        <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener">Instagram (@lasa.chocolates)</a>
+        <a href="#about-lasa">Our Story</a>
+        <a href="https://forms.gle/RsjPg6EgCdBUmNhB8">Google Form</a>
+        <a href="https://wa.me/19035653901">Direct Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Navigation Slide-out Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <div class="drawer-title-wrap">
+        <span class="brand-sub">LASA ATELIER</span>
+        <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--text-primary); margin: 0;">Explore Confections</h4>
+      </div>
+      <button class="close-mobile-nav-btn" id="closeMobileNavBtn" aria-label="Close menu">&times;</button>
+    </div>
+
+    <nav class="mobile-nav-links">
+      <a href="#collections" class="mobile-nav-link" data-mobile-nav="true">🍫 Our Creations</a>
+      <a href="#box-builder" class="mobile-nav-link highlight-link" data-mobile-nav="true">🎁 10-Piece Custom Box</a>
+      <a href="#brownies-section" class="mobile-nav-link" data-mobile-nav="true">✨ Fudge Brownies</a>
+      <a href="#reels-section" class="mobile-nav-link" data-mobile-nav="true" style="color: #C13584; font-weight: 600;">🎬 Watch Our Reels</a>
+      <a href="#about-lasa" class="mobile-nav-link" data-mobile-nav="true">🌸 About Lasa</a>
+      <a href="#downloads-section" class="mobile-nav-link" data-mobile-nav="true">📜 Menus &amp; Catalog</a>
+      <a href="https://www.instagram.com/lasa.chocolates/" target="_blank" rel="noopener" class="mobile-nav-link instagram-link" data-mobile-nav="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        <span>Instagram (@lasa.chocolates)</span>
+      </a>
+      <a href="https://forms.gle/RsjPg6EgCdBUmNhB8" target="_blank" rel="noopener" class="mobile-nav-link" data-mobile-nav="true">📝 Google Order Form</a>
+      <a href="https://wa.me/19035653901" target="_blank" rel="noopener" class="mobile-nav-link whatsapp-link" data-mobile-nav="true">💬 WhatsApp Support (+1 903 565 3901)</a>
+    </nav>
+
+    <div class="mobile-nav-footer">
+      <p style="font-weight: 600; color: var(--accent-sage-dark); margin-bottom: 0.25rem;">Handcrafted with 100% Love</p>
+      <p style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.35rem;">Bangalore Atelier, Karnataka, India</p>
+      <p style="font-size: 0.7rem; color: var(--accent-sage); font-weight: 600;">Made by: sinfotech.AI pvt ltd.</p>
+    </div>
+  </aside>
+
+  <!-- Floating Sticky Cart Pill (Follows when scrolling down) -->
+  <button class="floating-cart-pill" id="floatingCartPill" aria-label="View Shopping Bag" title="View Shopping Bag">
+    <div class="floating-cart-pill-inner">
+      <div class="floating-cart-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="floating-cart-badge" id="floatingCartCountBadge">0</span>
+      </div>
+      <div class="floating-cart-info">
+        <span class="floating-cart-label">Bag</span>
+        <span class="floating-cart-total" id="floatingCartTotal">₹0</span>
+      </div>
+    </div>
+  </button>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Bag">
+    <div class="cart-drawer-header">
+      <div class="drawer-title-wrap">
+        <h3>Your Lasa Selection</h3>
+        <span class="drawer-item-count" id="drawerItemCount">0 items</span>
+      </div>
+      <button class="close-drawer-btn" id="closeCartBtn" aria-label="Close Shopping Bag">&times;</button>
+    </div>
+
+    <div class="shipping-meter-wrap">
+      <div class="shipping-meter-msg" id="shippingMeterMsg">
+        Add ₹499 for complimentary local delivery
+      </div>
+      <div class="shipping-track">
+        <div class="shipping-fill" id="shippingFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <div class="cart-items-list" id="cartItemsList">
+      <!-- Items dynamically added here -->
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="cart-promo-row">
+        <input type="text" placeholder="Promo code (Try LASA10)" id="promoInput" class="promo-input">
+        <button class="btn btn-outline-sm" id="applyPromoBtn">Apply</button>
+      </div>
+      <div class="promo-feedback" id="promoFeedback"></div>
+
+      <div class="cart-summary-lines">
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">₹0</span>
+        </div>
+        <div class="summary-line" id="discountLine" style="display: none;">
+          <span>Privilege Discount (10%)</span>
+          <span class="discount-val" id="cartDiscount">-₹0</span>
+        </div>
+        <div class="summary-line">
+          <span>Delivery</span>
+          <span id="cartShipping">Calculated at checkout</span>
+        </div>
+        <div class="summary-line total-line">
+          <span>Total</span>
+          <span class="total-val" id="cartTotal">₹0</span>
+        </div>
+      </div>
+
+      <!-- Compulsory Customer Details for WhatsApp Order -->
+      <div class="cart-customer-details" id="cartCustomerDetails">
+        <div class="customer-details-header">
+          <span class="details-title">
+            <span>👤 Customer Contact Details</span>
+            <span style="color: #D32F2F; font-size: 0.725rem; font-weight: 700; background: #FFEBEE; padding: 2px 8px; border-radius: 12px;">Compulsory *</span>
+          </span>
+          <span class="details-hint">Required for order verification &amp; WhatsApp communication</span>
+        </div>
+
+        <div class="customer-inputs-grid">
+          <div class="cust-input-group">
+            <label for="custName">Your Full Name <span class="req-star">*</span></label>
+            <input type="text" id="custName" class="cust-field" placeholder="e.g. Lakshitha / Customer Name" required autocomplete="name">
+            <span class="cust-err-msg" id="custNameErr">Please enter your full name (compulsory)</span>
+          </div>
+
+          <div class="cust-input-group">
+            <label for="custPhone">WhatsApp Number <span class="req-star">*</span></label>
+            <input type="tel" id="custPhone" class="cust-field" placeholder="e.g. 98765 43210" required autocomplete="tel">
+            <span class="cust-err-msg" id="custPhoneErr">Please enter a valid 10-digit WhatsApp number (compulsory)</span>
+          </div>
+
+          <div class="cust-input-group">
+            <label for="custEmail">Gmail / Email ID <span class="req-star">*</span></label>
+            <input type="email" id="custEmail" class="cust-field" placeholder="e.g. yourname@gmail.com" required autocomplete="email">
+            <span class="cust-err-msg" id="custEmailErr">Please enter a valid Gmail ID / email (compulsory)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkout-actions-stack">
+        <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>
+          <span>Complete Order</span>
+        </button>
+        <button class="btn btn-secondary btn-block whatsapp-checkout-btn" id="whatsappCheckoutBtn" disabled>
+          <span>💬 Order via WhatsApp with Bag Items</span>
+        </button>
+      </div>
+
+      <div class="cart-security-badge">
+        <span>💖 Handmade Fresh in Bangalore · 100% Love Guaranteed</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Quick View / Tasting Notes Modal -->
+  <div class="modal-overlay" id="productModalOverlay">
+    <div class="modal-window product-modal" id="productModal">
+      <button class="modal-close-btn" id="closeProductModalBtn">&times;</button>
+      <div class="modal-body-split" id="modalProductContent">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Complete Simulation Modal -->
+  <div class="modal-overlay" id="orderSuccessOverlay">
+    <div class="modal-window success-modal">
+      <button class="modal-close-btn" id="closeSuccessModalBtn">&times;</button>
+      <div class="success-content text-center">
+        <div class="success-icon">🌸</div>
+        <h2>Thank You from Lasa!</h2>
+        <p class="order-ref">Order Reference: <strong id="orderRefNumber">LASA-481920</strong></p>
+        <p class="order-msg">
+          Lakshitha and the atelier team have received your order! We are hand-preparing your chocolates and brownies fresh in Bangalore.
+        </p>
+
+        <!-- Customer summary after sending order -->
+        <div class="order-customer-summary" id="orderCustomerSummary">
+          <span class="summary-badge">👤 Customer Contact Details Attached</span>
+          <div class="cust-summary-row"><span>Customer:</span> <strong id="summaryCustName">-</strong></div>
+          <div class="cust-summary-row"><span>WhatsApp:</span> <strong id="summaryCustPhone">-</strong></div>
+          <div class="cust-summary-row"><span>Gmail ID:</span> <strong id="summaryCustEmail">-</strong></div>
+        </div>
+
+        <div class="ordered-box-summary" id="orderedBoxSummary"></div>
+        <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+          <a href="#" id="orderSuccessWhatsappBtn" target="_blank" rel="noopener" class="btn btn-primary">
+            <span>Send Details to WhatsApp</span>
+          </a>
+          <button class="btn btn-secondary" id="continueShoppingBtn">Return to Atelier</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Owner Password Authentication Modal (Protected by Password 3004) -->
+  <div class="modal-overlay" id="editorAuthModalOverlay" role="dialog" aria-modal="true" aria-labelledby="authModalTitle">
+    <div class="modal-window" style="max-width: 440px; padding: 2.75rem 2.25rem; text-align: center;">
+      <button class="modal-close-btn" id="closeEditorAuthBtn" aria-label="Close dialog">&times;</button>
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, #FAF4E6 0%, #EAF2ED 100%); border: 1.5px solid var(--accent-gold); display: flex; align-items: center; justify-content: center; font-size: 1.85rem; margin: 0 auto 1.25rem; box-shadow: 0 6px 18px rgba(197, 159, 85, 0.18);">
+        🔒
+      </div>
+      <h3 id="authModalTitle" style="font-family: var(--font-serif); font-size: 1.95rem; color: var(--text-primary); margin-bottom: 0.35rem;">Owner Access Only</h3>
+      <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 1.75rem;">
+        This editor is reserved for Lakshitha only. Enter your private password to unlock live website editing:
+      </p>
+
+      <form id="editorAuthForm" onsubmit="return false;" novalidate>
+        <div style="margin-bottom: 1.25rem; text-align: left;">
+          <label for="editorPasswordInput" style="display: block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark); margin-bottom: 0.45rem; letter-spacing: 0.05em;">Security Password</label>
+          <div class="auth-input-group">
+            <input type="password" id="editorPasswordInput" class="auth-password-input" placeholder="••••" maxlength="20" autocomplete="off" required>
+            <button type="button" class="toggle-pwd-btn" id="togglePasswordVisibilityBtn" title="Show or hide password" aria-label="Toggle password visibility">👁️</button>
+          </div>
+          <div class="auth-error-msg" id="editorAuthError">
+            <span>⚠️</span> <span>Incorrect password. Access denied.</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 0.75rem; margin-top: 1.5rem;">
+          <button type="submit" class="btn btn-primary" id="submitEditorAuthBtn" style="flex: 1.2; justify-content: center;">
+            <span>Unlock Edit Mode</span>
+          </button>
+          <button type="button" class="btn btn-outline-sm" id="cancelEditorAuthBtn" style="flex: 0.8; justify-content: center;">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Image Change Modal (Live Editor) -->
+  <div class="modal-overlay" id="imageEditModalOverlay">
+    <div class="modal-window" style="max-width: 480px; padding: 2.5rem 2rem;">
+      <button class="modal-close-btn" id="closeImageEditBtn">&times;</button>
+      <div class="text-center">
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.5rem;">Update Image</h3>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Choose a local image file or paste an image URL:</p>
+        
+        <div style="margin-bottom: 1.25rem; text-align: left;">
+          <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Upload from Device:</label>
+          <input type="file" id="imageFileInput" accept="image/*" style="width: 100%; margin-top: 0.4rem; font-size: 0.85rem;">
+        </div>
+
+        <div style="margin-bottom: 1.5rem; text-align: left;">
+          <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Or Paste Image Link (URL):</label>
+          <input type="url" id="imageUrlInput" placeholder="https://example.com/photo.jpg" class="newsletter-input" style="width: 100%; margin-top: 0.4rem;">
+        </div>
+
+        <div style="display: flex; gap: 0.75rem;">
+          <button class="btn btn-primary btn-block" id="applyImageBtn">Save Image</button>
+          <button class="btn btn-outline-sm" id="cancelImageBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Product Details & Price Modal (Live Editor) -->
+  <div class="modal-overlay" id="editProductModalOverlay">
+    <div class="modal-window" style="max-width: 500px; padding: 2.25rem 2rem;">
+      <button class="modal-close-btn" id="closeEditProductBtn">&times;</button>
+      <div>
+        <div style="text-align: center; margin-bottom: 1.25rem;">
+          <span style="display: inline-block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-gold); letter-spacing: 0.1em; margin-bottom: 0.35rem;">⚡ Live Catalog Editor</span>
+          <h3 id="editProductModalTitle" style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 0.35rem;">Edit Product</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">Change price or details — updates instantly sync to Firebase and reflect on all devices!</p>
+        </div>
+        
+        <form id="editProductForm">
+          <input type="hidden" id="editProdId">
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label for="editProdTitle" style="font-size: 0.8rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Product Name:</label>
+            <input type="text" id="editProdTitle" class="form-input" required style="width: 100%;">
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem;">
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="editProdPrice" style="font-size: 0.8rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Price (₹):</label>
+              <input type="number" id="editProdPrice" min="1" step="1" class="form-input" required style="width: 100%; font-weight: 700; font-size: 1.15rem; color: var(--accent-sage-dark);">
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="editProdPack" style="font-size: 0.8rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Pack Size / Pieces:</label>
+              <input type="text" id="editProdPack" placeholder="e.g. 10 Pieces Box" class="form-input" style="width: 100%;">
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom: 1.25rem;">
+            <label for="editProdDesc" style="font-size: 0.8rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Short Description:</label>
+            <textarea id="editProdDesc" rows="3" class="form-input" style="width: 100%; resize: vertical;"></textarea>
+          </div>
+          
+          <div style="display: flex; gap: 0.75rem;">
+            <button type="submit" class="btn btn-primary btn-block" id="saveEditProductBtn" style="flex: 2;">Save & Sync Across Devices ⚡</button>
+            <button type="button" class="btn btn-outline-sm" id="cancelEditProductBtn" style="flex: 1;">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add New Product Modal (Live Editor) -->
+  <div class="modal-overlay" id="newProductModalOverlay">
+    <div class="modal-window" style="max-width: 520px; padding: 2.5rem 2rem;">
+      <button class="modal-close-btn" id="closeNewProductBtn">&times;</button>
+      <div>
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.5rem; text-align: center;">Add New Product</h3>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem; text-align: center;">Add a new chocolate, brownie, or gift box to your live menu:</p>
+        
+        <form id="newProductForm" style="display: flex; flex-direction: column; gap: 1rem;">
+          <div>
+            <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Product Name:</label>
+            <input type="text" id="newProdName" required placeholder="e.g. Saffron Pistachio Dome" class="newsletter-input" style="width: 100%; margin-top: 0.25rem;">
+          </div>
+          <div style="display: flex; gap: 1rem;">
+            <div style="flex: 1;">
+              <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Price (₹):</label>
+              <input type="number" id="newProdPrice" required placeholder="180" class="newsletter-input" style="width: 100%; margin-top: 0.25rem;">
+            </div>
+            <div style="flex: 1;">
+              <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Category:</label>
+              <select id="newProdCategory" class="newsletter-input" style="width: 100%; margin-top: 0.25rem; background: #fff;">
+                <option value="exotic">Exotic Speciality</option>
+                <option value="dryfruit">Mixed Dry Fruit</option>
+                <option value="plain">Plain Chocolates</option>
+                <option value="brownie">Fudge Brownies</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Pack / Quantity:</label>
+            <input type="text" id="newProdPack" required placeholder="e.g. 10 Pieces Box" class="newsletter-input" style="width: 100%; margin-top: 0.25rem;">
+          </div>
+          <div>
+            <label style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--accent-sage-dark);">Short Description:</label>
+            <textarea id="newProdDesc" required placeholder="Describe your delicious creation..." class="newsletter-input" style="width: 100%; margin-top: 0.25rem; min-height: 80px; border-radius: 12px;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Add to Live Menu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Remove Product Modal (Live Editor) -->
+  <div class="modal-overlay" id="removeProductModalOverlay">
+    <div class="modal-window" style="max-width: 580px; padding: 2.25rem 2rem; max-height: 85vh; display: flex; flex-direction: column;">
+      <button class="modal-close-btn" id="closeRemoveProductBtn">&times;</button>
+      <div style="text-align: center; margin-bottom: 1.25rem;">
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.35rem; color: #D32F2F;">🗑️ Remove Products</h3>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">Click "Remove" on any item to delete it from the live menu across all devices:</p>
+      </div>
+      <div class="remove-products-list" id="removeProductsList" style="overflow-y: auto; flex: 1; max-height: 50vh; display: flex; flex-direction: column; gap: 0.75rem; padding-right: 4px;">
+        <!-- Dynamically rendered list of active products -->
+      </div>
+      <div style="margin-top: 1.25rem; display: flex; justify-content: flex-end;">
+        <button type="button" class="btn btn-outline-sm" id="doneRemoveProductBtn">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cloud Database Sync Modal (Firebase Realtime DB) -->
+  <div class="modal-overlay" id="cloudSyncModalOverlay">
+    <div class="modal-window" style="max-width: 620px; padding: 2.25rem 2rem; max-height: 85vh; display: flex; flex-direction: column;">
+      <button class="modal-close-btn" id="closeCloudSyncBtn">&times;</button>
+      <div style="text-align: center; margin-bottom: 1.25rem;">
+        <span style="display: inline-block; background: rgba(66, 133, 244, 0.12); color: #1a73e8; border-radius: 999px; padding: 0.35rem 1rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.5rem;">Cross-Device Multi-User Sync</span>
+        <h3 style="font-family: var(--font-serif); font-size: 1.75rem; margin-bottom: 0.35rem; color: var(--text-primary);">☁️ Cloud Database Sync</h3>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.45; margin-bottom: 0;">Connected with your Google Firebase project: <strong>lasa-pricing</strong>. Edits you make in Live Edit Mode sync in real-time across all customer mobile phones, tablets, and computers worldwide!</p>
+      </div>
+
+      <div style="overflow-y: auto; flex: 1; padding-right: 4px; display: flex; flex-direction: column; gap: 1rem;">
+        <!-- Live Status Card -->
+        <div id="cloudStatusCard" style="background: var(--bg-surface); border: 1.5px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1rem 1.25rem;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.35rem;">
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary);">Firebase Status:</span>
+            <span id="cloudStatusBadge" style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: rgba(52, 168, 83, 0.15); color: #2d7a46;">
+              <span id="cloudStatusDot" style="width: 8px; height: 8px; border-radius: 50%; background: #34a853; display: inline-block;"></span> <span id="cloudStatusText">Project: lasa-pricing ⚡</span>
+            </span>
+          </div>
+          <div id="cloudStatusDetail" style="font-size: 0.8rem; color: var(--text-secondary); word-break: break-all;">Connected to Firebase Project: <strong style="color: #1a73e8;">lasa-pricing</strong> (Firestore &amp; Realtime DB ready).</div>
+        </div>
+
+        <!-- Firebase URL / DB Endpoint Input -->
+        <div class="form-group" style="margin-bottom: 0;">
+          <label for="firebaseDbUrlInput" style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.4rem; display: block;">
+            Database Endpoint / Realtime URL:
+          </label>
+          <input type="url" id="firebaseDbUrlInput" value="https://lasa-pricing-default-rtdb.firebaseio.com" style="width: 100%; padding: 0.75rem 1rem; border: 1.5px solid var(--border-subtle); border-radius: var(--radius-sm); font-size: 0.85rem; background: var(--bg-surface); color: var(--text-primary); font-family: monospace;" />
+          <small style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.35rem;">
+            Pre-configured for project: <code>lasa-pricing</code>
+          </small>
+        </div>
+
+        <!-- Test & Save Buttons -->
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-outline-sm" id="saveAndTestCloudBtn" style="background: #1a73e8; color: #fff; border-color: #1a73e8; flex: 1; font-weight: 600;">
+            ⚡ Test &amp; Push Live Sync
+          </button>
+          <button type="button" class="btn btn-outline-sm" id="disconnectCloudBtn" style="border-color: #D32F2F; color: #D32F2F;">
+            Reset Cache
+          </button>
+        </div>
+
+        <!-- Permanent Code Display (Appears once connected) -->
+        <div id="cloudPermanentCodeBox" style="display: block; background: rgba(52, 168, 83, 0.08); border: 1.5px dashed #34a853; border-radius: var(--radius-sm); padding: 0.85rem 1rem;">
+          <div style="font-size: 0.82rem; font-weight: 700; color: #2d7a46; margin-bottom: 0.35rem;">
+            ✅ Project &ldquo;lasa-pricing&rdquo; Active in app.js
+          </div>
+          <p style="font-size: 0.78rem; color: var(--text-primary); margin-bottom: 0.5rem; line-height: 1.4;">
+            Your Firebase API key, project ID, and storage bucket are built into <code>app.js</code> and ready to push to GitHub Pages!
+          </p>
+        </div>
+
+        <!-- One-minute Setup Instructions (Accordion/Guide) -->
+        <div style="border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1rem; background: rgba(66, 133, 244, 0.04);">
+          <h4 style="font-size: 0.88rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a73e8; display: flex; align-items: center; gap: 6px;">
+            <span>🔓</span> Important: Unlocking Database Rules in Firebase Console (10 Seconds)
+          </h4>
+          <ol style="margin: 0; padding-left: 1.25rem; font-size: 0.8rem; color: var(--text-primary); line-height: 1.55; display: flex; flex-direction: column; gap: 0.4rem;">
+            <li>In <a href="https://console.firebase.google.com/project/lasa-pricing" target="_blank" rel="noopener" style="color: #1a73e8; text-decoration: underline; font-weight: 600;">Firebase Console for &ldquo;lasa-pricing&rdquo;</a>:</li>
+            <li>In the left sidebar, click <strong>Firestore Database</strong> (or <strong>Realtime Database</strong>) &rarr; click the <strong>&ldquo;Rules&rdquo;</strong> tab.</li>
+            <li>Change the rule to allow read and write:
+              <pre style="background: #202124; color: #8ab4f8; padding: 6px 10px; border-radius: 6px; font-size: 0.75rem; margin: 4px 0;">allow read, write: if true;</pre>
+            </li>
+            <li>Click <strong>&ldquo;Publish&rdquo;</strong>. Now all your customer devices can read updates in real-time!</li>
+          </ol>
+        </div>
+      </div>
+
+      <div style="margin-top: 1.25rem; display: flex; justify-content: flex-end;">
+        <button type="button" class="btn btn-outline-sm" id="doneCloudSyncBtn">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Festival Particles Overlay Container (Pointer-events none) -->
+  <div class="festival-particles-container" id="festivalOverlayContainer" aria-hidden="true"></div>
+
+  <!-- Floating Editor Action Bar -->
+  <div class="editor-floating-bar" id="editorFloatingBar">
+    <div class="editor-bar-label">
+      <span>✏️ Live Edit</span>
+      <span class="active-festival-badge" id="activeFestivalStatusBadge">Festive: Off</span>
+    </div>
+    <div class="editor-bar-actions">
+      <!-- 4 Festival Selector Buttons -->
+      <div class="festival-toggle-group" aria-label="Activate Festival Theme">
+        <span class="festival-group-tag">Festive:</span>
+        <button type="button" class="btn-festival-toggle active" data-festival="none" id="festBtnNone" title="Turn off festival mode">Off</button>
+        <button type="button" class="btn-festival-toggle" data-festival="pongal" id="festBtnPongal" title="Activate Pongal Mode (Flying Tiny Kites)">🪁 Pongal</button>
+        <button type="button" class="btn-festival-toggle" data-festival="dasara" id="festBtnDasara" title="Activate Dasara Mode (Marigold & Sparks)">🏹 Dasara</button>
+        <button type="button" class="btn-festival-toggle" data-festival="diwali" id="festBtnDiwali" title="Activate Diwali Mode (Glowing Diyas & Stars)">🪔 Diwali</button>
+        <button type="button" class="btn-festival-toggle" data-festival="christmas" id="festBtnChristmas" title="Activate Christmas Mode (Snowflakes & Bells)">🎄 Christmas</button>
+      </div>
+
+      <div class="editor-sep-line"></div>
+
+      <button class="btn btn-outline-sm" id="editorAddProductBtn">➕ Add Product</button>
+      <button class="btn btn-outline-sm" id="editorRemoveProductBtn" style="border-color: #D32F2F; color: #D32F2F;">🗑️ Remove Product</button>
+      <button class="btn btn-outline-sm" id="editorCloudSyncBtn" title="Sync live edits to Cloud Database so all customer devices see updates" style="border-color: #1a73e8; color: #1a73e8; font-weight: 600;">☁️ Cloud Sync</button>
+      <button class="btn btn-outline-sm" id="editorSaveBtn" style="background: var(--accent-sage-dark); color: #fff;">💾 Save Edits</button>
+      <button class="btn btn-outline-sm" id="editorExportBtn" title="Export HTML file with all your changes">📥 Export Site</button>
+      <button class="btn btn-outline-sm" id="editorLockBtn" title="Lock edit mode and protect with password" style="border-color: #D32F2F; color: #D32F2F;">🔒 Lock &amp; Exit</button>
+      <button class="btn btn-outline-sm" id="editorResetBtn" title="Reset all changes back to initial layout">🔄 Reset</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Firebase Official SDKs (Cross-Device Cloud Sync for GitHub Pages) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics-compat.js"></script>
+
+  <script src="app.js"></script>
+  <!-- Noupe AI Chatbot Integration -->
+  <script src="https://www.noupe.com/embed/01a1b26745f870008ea214d27b1435be36be.js"></script>
+</body>
+</html>
