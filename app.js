@@ -1199,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const { subtotal, discount, total } = getCartCalculations();
     let text = `🌸 *LASA CHOCOLATES & BAKERS — NEW ORDER* 🌸\n\n`;
-    text += `👤 *CUSTOMER DETAILS (COMPULSORY):*\n`;
+    text += `👤 *CUSTOMER DETAILS:*\n`;
     text += `• *Full Name:* ${nameVal || 'Not provided'}\n`;
     text += `• *WhatsApp Number:* ${phoneVal || 'Not provided'}\n`;
     text += `• *Gmail ID:* ${emailVal || 'Not provided'}\n\n`;
@@ -1219,7 +1219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     text += `📍 Bangalore Atelier\n`;
     text += `Please confirm order availability and share payment instructions. Thank you! 💖`;
 
-    return `https://wa.me/19035653901?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/+919035653901?text=${encodeURIComponent(text)}`;
   }
 
   // Checkout Execution with Compulsory Validation
